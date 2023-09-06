@@ -1,0 +1,483 @@
+@charset "utf-8";
+
+/*잠실체 폰트*/
+@font-face {
+    font-family: 'TheJamsil5Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/TheJamsil5Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* 폰트*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img,
+video,
+iframe {
+    vertical-align: middle;
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+body {
+    font-family: "jamsil";
+    font-size: 20px;
+    line-height: 10px;
+    color: #375857;
+    min-width: 1450px;
+    background: #F8F5EF;
+}
+
+/*header */
+
+#header {
+    font-size: 17px;
+    font-weight: 500;
+    position: absolute;
+    z-index: 5;
+    left: 100px;
+    top: 13px;
+
+
+}
+
+#header ul {
+    background: url(../img/menu_line.png) no-repeat;
+    height: 613px;
+    padding-top: 110px;
+    box-sizing: border-box;
+    padding-left: 7px
+}
+
+#header li {
+    position: relative;
+    padding-bottom: 15.5px;
+    padding-top: 15.5px;
+    border-bottom: 2px dashed #668f8d;
+
+}
+
+#header li::after {
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    left: -30px;
+    width: 13px;
+    height: 16px;
+    content: url(../img/box1.png);
+
+}
+
+#header a {
+    color: #375857;
+    padding: 3px;
+}
+
+#header .menu_a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#header .menu {
+    position: absolute;
+    top: 68px;
+    left: -36px;
+    scale: 1.1;
+}
+
+#header .logoup {
+    position: absolute;
+    top: 17px;
+    left: -12px;
+    scale: 2.5;
+}
+
+
+/*main*/
+
+#main {
+    text-align: center;
+    height: 850px;
+}
+
+.main_inner {
+    width: 1320px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.main_a {
+    padding-top: 58px;
+    padding-left: 282px;
+}
+
+.main_b {
+    position: absolute;
+    left: 253px;
+    top: 328px;
+}
+
+
+#login {
+    right: 0;
+    position: absolute;
+    top: 75px;
+}
+
+#login ul {
+    display: flex;
+}
+
+#login ul li {
+    padding-right: 17px;
+}
+
+.login {
+    padding-top: 5px;
+    padding-right: 2px;
+}
+
+#Character {
+    position: absolute;
+    top: 489px;
+    left: 436px;
+}
+
+#Character ul {
+    display: flex;
+}
+
+#Character ul li {
+    padding-right: 62px;
+}
+
+#sub_Shape ul {
+    display: flex;
+}
+
+#sub_Shape li {
+    padding-right: 124px;
+}
+
+#sub_Shape {
+    padding-top: 84px;
+    padding-left: 471px;
+}
+
+.Brown_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftbox {
+    width: 33%;
+    background-color: #B5B1AA;
+    text-align: center;
+    height: 935px;
+}
+
+.leftbox img {
+
+    padding-top: 95px;
+}
+
+#news {
+    width: 67%;
+    background-color: #ffff;
+    border-bottom: 2px dashed #B5B1AA;
+    border-top: 2px dashed #B5B1AA;
+    padding-top: 90px;
+    height: 840px;
+}
+
+#news .b_t {
+    text-align: center;
+    padding-top: 120px;
+    font-size: 24px;
+}
+
+#news .b_a {
+    text-align: center;
+    padding-top: 75px;
+}
+
+#news .b_h {
+    text-align: right;
+    padding-top: 59px;
+    padding-right: 30px;
+}
+
+.card .next,
+.card .prev {
+    color: #375857;
+
+}
+
+.card {
+    width: 95%;
+    background-color: #DED9D1;
+}
+
+
+
+
+#photographer {
+    text-align: center;
+    height: 6627px;
+    background: url(../img/sub_lines.png) no-repeat;
+}
+
+.Brown {
+    position: relative;
+    padding-top: 677px;
+    text-align: left;
+}
+
+
+.Green {
+    padding-top: 360px;
+
+}
+
+.Blue {
+    padding-top: 358px;
+}
+
+.Yellow {
+    padding-top: 461px;
+}
+
+
+
+
+
+/*스와이퍼*/
+
+.card img {
+    width: 100%;
+}
+
+.card .swiper-slide h1 {
+    padding: 10px 0;
+}
+
+.card .swiper-slide p {
+    padding-bottom: 30px;
+}
+
+
+
+
+
+.card {
+
+    padding-bottom: 50px;
+}
+
+
+.swiper-button-prev {
+    left: -50px;
+    right: auto;
+}
+
+.swiper-button-next {
+    right: -50px;
+    left: auto;
+}
+
+/*높이가 다른 슬라이드들을 세로 가운데가 맞게 해줌*/
+.card .swiper-wrapper {
+    align-items: center;
+}
+
+/*지금 현재 가운데 보이고 있는 슬라이드는 .swiper-slide-active 라는 클래스를 가지는데 이를 이용해 스타일을 꾸며줌. */
+.card .swiper-slide {
+    transform: scale(0.7);
+    opacity: 0.3;
+}
+
+.card .swiper-slide-prev,
+.card .swiper-slide-next {
+    transform: scale(0.85);
+    opacity: 0.5;
+}
+
+.card .swiper-slide-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s;
+
+
+}
+
+.card .swiper-slide .text {
+    display: none;
+}
+
+.card .swiper-slide-active .text {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*밑에 footer*/
+
+#footer {
+    background: #E8E8E8 url(../img/Footer.png) no-repeat center bottom;
+    height: 460px;
+    text-align: center;
+    display: flex;
+    margin-top: 63px;
+
+}
+
+.textbox {
+    width: 33.33%;
+    height: 350px;
+    padding-top: 94px;
+    font-size: 14px;
+}
+
+.textbox p {
+    text-align: left;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    font-weight: 400;
+}
+
+
+
+.textbox span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.textbox .c {
+    font-size: 13px;
+    padding-top: 156px;
+}
+
+.text_a,
+.text_b {
+    display: flex;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    font-weight: 400;
+}
+
+.text_a li,
+.text_b li {
+    padding-right: 23px;
+}
+
+.logo {
+    padding-top: 131px;
+    width: 33.33%;
+}
+
+
+.logo_a {
+    margin-right: 43px;
+}
+
+.imgs {
+    padding-top: 38px;
+    width: 33.33%;
+}
+
+.SOCIAL_inner {
+    display: flex;
+}
+
+.SOCIAL_inner p {
+    padding-top: 50px;
+    font-weight: 300px;
+}
+
+.SOCIAL_inner li {
+    margin-left: 35px;
+    padding-top: 28px;
+}
+
+
+#noti {
+    background-image: url(../img/Footer_a.png);
+    background-repeat: no-repeat;
+    text-align: left;
+    margin-left: -19px;
+    height: 113px;
+    font-weight: 300px;
+}
+
+
+.imgs p {
+    padding-bottom: 13px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#noti .a {
+    padding: 35px;
+    margin-top: 3px;
+    font-size: 14px;
+    margin-left: 4px;
+    font-weight: 400;
+}
+
+#noti .b {
+    margin-left: 40px;
+    margin-top: -8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Text {
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 160px;
+    padding-right: 60px;
+}
+
+.Text li {
+    padding-right: 20px;
+}
+
+.Text li a {
+    color: #375857;
+}
+
+#photographer {
+    background: url(../img/sub_lines.png) no-repeat 50% 50%;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1450">
+    <title>TO RECORD ME</title>
+
+    <link rel="stylesheet" href="./css/to.css">
+    <link rel="stylesheet" href="./font/stylesheet.css">
+    <link rel="shortcut icon" href="./img/Favicon.ico" type="image/x-icon">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!--aos-->
+    <!--<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    -->
+</head>
+
+<body>
+
+    <div id="header">
+        <ul>
+            <img src="./img/menu_c.png" alt="메뉴이미지" class="menu">
+            <li><a href="#">사이트 소개</a></li>
+            <li><a href="#">작가 소개</a></li>
+            <li><a href="#">예약 잡기</a></li>
+            <li class="menu_a"><a href="#"><img src="./img/menu_b.png" alt="event"></a></li>
+            <li class="menu_a"><a href="#"><img src="./img/menu_a.png" alt="store"></a></li>
+        </ul>
+    </div><!--header-->
+
+    <div id="main">
+        <div class="hover_box"></div>
+        <img src="./img/MAIN_B.png" alt="메인이미지2" class="ef2">
+        <img src="./img/MAIN_A.png" alt="메인이미지" class="ef1">
+
+    </div><!--main-->
+
+
+    <div id="brand">
+        <img src="./img/brand_a.png" alt="브랜드 소개">
+        <div class="brand_inner">
+            <img src="./img/brand_b.png" alt="브랜드 사진1" class="brand1">
+            <div class="brand2"><img src="./img/brand_c.png" alt="브랜드 사진2">
+
+                <p>'Me' 나를 기록하다
+                    'Me'나를 기록하다
+                    'Me' 나를 기록하다
+                </p>
+
+            </div>
+
+        </div><!--brand_inner-->
+
+    </div><!--brand-->
+
+
+    <div id="TYPE_OF">
+        <img src="./img/Typeof.png" alt="계절별">
+
+        <div class="TYPE_OF_inner">
+            <img src="./img/Type_of.png" alt="계절별이미지">
+
+        </div><!--TYPE_OF_inner-->
+    </div><!--TYPE_OF-->
+
+
+
+    <div id="Insta">
+
+        <img src="./img/Insta_Review.png" alt="인스타리뷰">
+
+        <div class="Insta_inner">
+            <!--사진넣을것 --><!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/Review_a.png" alt="리뷰1"></div>
+                    <div class="swiper-slide"><img src="./img/Review_b.png" alt="리뷰2"></div>
+                    <div class="swiper-slide"><img src="./img/Review_c.png" alt="리뷰3"></div>
+                    <div class="swiper-slide"><img src="./img/Review_d.png" alt="리뷰4"></div>
+                    <div class="swiper-slide"><img src="./img/Review_e.png" alt="리뷰5"></div>
+                    <div class="swiper-slide"><img src="./img/Review_f.png" alt="리뷰6"></div>
+                    <div class="swiper-slide"><img src="./img/Review_g.png" alt="리뷰7"></div>
+                    <div class="swiper-slide"><img src="./img/Review_h.png" alt="리뷰8"></div>
+                    <div class="swiper-slide"><img src="./img/Review_i.png" alt="리뷰9"></div>
+                </div><!--swiper-wrapper-->
+                <div class="swiper-button-next anext"></div>
+                <div class="swiper-button-prev aprev"></div>
+            </div><!--swiper mySwiper-->
+        </div><!--Insta_inner-->
+
+    </div><!--Insta-->
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 5,
+            spaceBetween: 30,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+
+
+    <div id="footer">
+        <div class="textbox">
+            <ul class="text_a">
+                <li>상호명 : (주)TO RECORD ME </li>
+                <li>ㅣ</li>
+                <li>대표자 : 조소영</li>
+            </ul><!--text_a-->
+            <ul class="text_b">
+                <li>사업자등록번호 : 111-22-33333</li>
+                <li>ㅣ</li>
+                <li>통신판매업신고번호 : 1234-0000-1234</li>
+            </ul><!--text_b-->
+
+            <p>주소 : 00000 부산광역시 중구 중앙대로</p>
+            <p>고객센터 : 1234-0000 / to_ME@naver.co.kr</p>
+            <p>고객센터 운영시간 : 10AM ~ 18PM / 주말 및 공휴일 휴무</p>
+
+            <p class="c">ⓒ<span>TO RECORD ME.</span> All rights reserved.</p>
+
+        </div><!--text-->
+
+        <div class="logo">
+            <a href="#"><img src="./img/Footer_b.png" alt="푸터로고" class="logo_a"></a>
+        </div><!--logo-->
+        <div class="imgs">
+            <p>공지</p>
+            <div id="noti">
+                <p class="a">공지내용 [이벤트] 행사 7-8월</p>
+                <p class="b">공지내용</p>
+            </div><!--noti-->
+
+            <ul class="SOCIAL_inner">
+                <p>SOCIAL</p>
+                <li><a href="#"><img src="./img/SOCIAL_a.png" alt="페이스북"></a></li>
+                <li><a href="#"><img src="./img/SOCIAL_b.png" alt="인스타"></a></li>
+                <li><a href="#"><img src="./img/SOCIAL_c.png" alt="유튜브"></a></li>
+                <li><a href="#"><img src="./img/SOCIAL_d.png" alt="카카오톡"></a></li>
+            </ul><!--SOCIAL_inner-->
+
+            <ul class="Text">
+                <li><a href="#">이용약관</a></li>
+                <li>ㅣ</li>
+                <li><a href="#">개인정보취급방침</a></li>
+            </ul><!--Text-->
+        </div><!--imgs-->
+    </div><!--footer-->
+
+
+</body>
+
+</html>
