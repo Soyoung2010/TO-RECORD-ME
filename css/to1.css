@@ -185,12 +185,46 @@ body {
     justify-content: space-between;
 }
 
+.Green_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Blue_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Yellow_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
 .leftbox {
     width: 33%;
-    background-color: #B5B1AA;
+
     text-align: center;
     height: 935px;
 }
+
+/*박스 색깔*/
+.leat1 {
+    background-color: #B5B1AA;
+}
+
+.leat2 {
+    background-color: #88B195;
+}
+
+.leat3 {
+    background-color: #6092AB;
+}
+
+.leat4 {
+    background-color: #E9C57E;
+}
+
+
 
 .leftbox img {
 
@@ -200,11 +234,38 @@ body {
 #news {
     width: 67%;
     background-color: #ffff;
+}
+
+/*스와이퍼부분 보더 선*/
+.news_innerb {
     border-bottom: 2px dashed #B5B1AA;
     border-top: 2px dashed #B5B1AA;
     padding-top: 90px;
     height: 840px;
 }
+
+.news_innerg {
+    border-bottom: 2px dashed #88B195;
+    border-top: 2px dashed #88B195;
+    padding-top: 90px;
+    height: 840px;
+}
+
+.news_inneru {
+    border-bottom: 2px dashed #6092AB;
+    border-top: 2px dashed #6092AB;
+    padding-top: 90px;
+    height: 840px;
+}
+
+.news_innerY {
+    border-bottom: 2px dashed #E9C57E;
+    border-top: 2px dashed #E9C57E;
+    padding-top: 90px;
+    height: 840px;
+}
+
+
 
 #news .b_t {
     text-align: center;
@@ -226,12 +287,30 @@ body {
 .card .next,
 .card .prev {
     color: #375857;
+    scale: 0.8;
 
 }
 
 .card {
     width: 95%;
+
+}
+
+/*색깔*/
+.bg1 {
     background-color: #DED9D1;
+}
+
+.bg2 {
+    background-color: #BDE2C9;
+}
+
+.bg3 {
+    background-color: #D1E2EB;
+}
+
+.bg4 {
+    background-color: #FFE8B4;
 }
 
 
@@ -251,16 +330,21 @@ body {
 
 
 .Green {
-    padding-top: 360px;
-
+    position: relative;
+    padding-top: 295px;
+    text-align: left;
 }
 
 .Blue {
-    padding-top: 358px;
+    position: relative;
+    padding-top: 282px;
+    text-align: left;
 }
 
 .Yellow {
-    padding-top: 461px;
+    position: relative;
+    padding-top: 370px;
+    text-align: left;
 }
 
 
