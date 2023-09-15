@@ -124,7 +124,9 @@ body {
 
 .main_a {
     padding-top: 58px;
-    padding-left: 282px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .main_b {
@@ -176,9 +178,11 @@ body {
 }
 
 #sub_Shape {
-    padding-top: 84px;
-    padding-left: 471px;
+    position: absolute;
+    top: 786px;
+    left: 471px;
 }
+
 
 .Brown_inner {
     display: flex;
